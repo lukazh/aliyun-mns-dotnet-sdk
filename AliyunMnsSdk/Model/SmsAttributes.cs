@@ -5,10 +5,11 @@ using System.Text;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Aliyun.MNS.Model
 {
-    [DataContract()]
+    [JsonObject]
     public class SmsAttributes
     {
         private string _freeSignName;
@@ -21,7 +22,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property Receiver. 
         /// </summary>
-        [DataMember]
+        [JsonProperty]
         public string Receiver
         {
             get { return this._receiver; }
@@ -37,7 +38,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property ExtendCode. 
         /// </summary>
-        [DataMember(EmitDefaultValue = false)]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string ExtendCode
         {
             get { return this._extendCode; }
@@ -53,7 +54,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property Extra. 
         /// </summary>
-        [DataMember(EmitDefaultValue = false)]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.Ignore)]
         public string Extra
         {
             get { return this._extra; }
@@ -69,7 +70,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property FreeSignName. 
         /// </summary>
-        [DataMember]
+        [JsonProperty]
         public string FreeSignName
         {
             get { return this._freeSignName; }
@@ -106,8 +107,8 @@ namespace Aliyun.MNS.Model
             get { return this._smsParams; }
             set { this._smsParams = value; }
         }
-
-        [DataMember(Name="SmsParams")]
+        
+        [JsonProperty("SmsParams")]
         public string SmsParamsForJsonize
         {
             get
@@ -137,16 +138,7 @@ namespace Aliyun.MNS.Model
 
         public string ToJson()
         {
-            using (MemoryStream s = new MemoryStream())
-            {
-                DataContractJsonSerializer dataContractJsonSerializer = new DataContractJsonSerializer(typeof(SmsAttributes));
-                dataContractJsonSerializer.WriteObject(s, this);
-                s.Seek(0, SeekOrigin.Begin);
-                using (StreamReader reader = new StreamReader(s))
-                {
-                    return reader.ReadToEnd();
-                }
-            }
+            return JsonConvert.SerializeObject(this);
         }
     }
 }

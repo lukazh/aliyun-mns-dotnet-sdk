@@ -5,10 +5,11 @@ using System.Text;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Aliyun.MNS.Model
 {
-    [DataContract()]
+    [JsonObject]
     public class MailAttributes
     {
         // please refer to https://help.aliyun.com/document_detail/directmail/api-reference/sendmail-related/SingleSendMail.html
@@ -21,7 +22,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property Subject. 
         /// </summary>
-        [DataMember]
+        [JsonProperty]
         public string Subject
         {
             get { return this._subject; }
@@ -37,7 +38,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property AccountName. 
         /// </summary>
-        [DataMember]
+        [JsonProperty]
         public string AccountName
         {
             get { return this._accountName; }
@@ -58,8 +59,8 @@ namespace Aliyun.MNS.Model
             get { return this._replyToAddress; }
             set { this._replyToAddress = value; }
         }
-
-        [DataMember(Name = "ReplyToAddress")]
+        
+        [JsonProperty("ReplyToAddress")]
         public int ReplyToAddressForJsonize
         {
             get { return this._replyToAddress ? 1 : 0; }
@@ -69,7 +70,7 @@ namespace Aliyun.MNS.Model
         /// <summary>
         /// Gets and sets the property AddressType. 
         /// </summary>
-        [DataMember]
+        [JsonProperty]
         public int AddressType
         {
             get { return this._addressType; }
@@ -84,8 +85,8 @@ namespace Aliyun.MNS.Model
             get { return this._isHtml; }
             set { this._isHtml = value; }
         }
-
-        [DataMember(Name = "IsHtml")]
+        
+        [JsonProperty("IsHtml")]
         public int IsHtmlForJsonize
         {
             get { return this._isHtml ? 1 : 0; }
@@ -94,16 +95,7 @@ namespace Aliyun.MNS.Model
 
         public string ToJson()
         {
-            using (MemoryStream s = new MemoryStream())
-            {
-                DataContractJsonSerializer dataContractJsonSerializer = new DataContractJsonSerializer(typeof(MailAttributes));
-                dataContractJsonSerializer.WriteObject(s, this);
-                s.Seek(0, SeekOrigin.Begin);
-                using (StreamReader reader = new StreamReader(s))
-                {
-                    return reader.ReadToEnd();
-                }
-            }
+            return JsonConvert.SerializeObject(this);
         }
     }
 }
