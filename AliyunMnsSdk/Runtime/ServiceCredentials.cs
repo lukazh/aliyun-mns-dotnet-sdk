@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aliyun.MNS.Runtime
+namespace AliyunMnsSdk.Runtime
 {
     /// <summary>
     /// Immutable representation of Aliyun service credentials.

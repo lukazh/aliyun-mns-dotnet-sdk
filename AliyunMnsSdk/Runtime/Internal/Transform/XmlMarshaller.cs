@@ -1,9 +1,9 @@
-﻿using Aliyun.MNS.Util;
+﻿using AliyunMnsSdk.Util;
 using System;
 using System.IO;
 using System.Xml.Serialization;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// XML marshaller used for marshalling specfied object to XML content stream.

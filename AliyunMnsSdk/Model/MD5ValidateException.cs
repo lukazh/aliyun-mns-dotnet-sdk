@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     public class MD5ValidateException : MNSException
     {

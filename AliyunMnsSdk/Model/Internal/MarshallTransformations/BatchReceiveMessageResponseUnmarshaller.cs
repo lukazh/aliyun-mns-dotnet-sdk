@@ -1,15 +1,15 @@
-﻿using Aliyun.MNS.Runtime.Internal.Transform;
+﻿using AliyunMnsSdk.Runtime.Internal.Transform;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Aliyun.MNS.Runtime;
+using AliyunMnsSdk.Runtime;
 using System.Net;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 using System.Xml.Serialization;
-using Aliyun.MNS.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     class BatchReceiveMessageResponseUnmarshaller : XmlResponseUnmarshaller
     {

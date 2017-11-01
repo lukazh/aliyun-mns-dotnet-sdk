@@ -1,11 +1,11 @@
 using System;
 using System.Net;
-using Aliyun.MNS.Runtime;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     /// <summary>
     /// Response Unmarshaller for CreateQueue operation

@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk
 {
     /// <summary>
     /// All erorr codes returned by MNS.

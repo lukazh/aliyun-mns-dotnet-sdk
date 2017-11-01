@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Net;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime
+namespace AliyunMnsSdk.Runtime
 {
     /// <summary>
     /// Base class of all configurations of MNS.

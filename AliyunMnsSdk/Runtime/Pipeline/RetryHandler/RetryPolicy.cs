@@ -1,7 +1,7 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.RetryHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.RetryHandler
 {
     /// <summary>
     /// A retry policy specifies all aspects of retry behavior. This includes conditions when the request should be retried,

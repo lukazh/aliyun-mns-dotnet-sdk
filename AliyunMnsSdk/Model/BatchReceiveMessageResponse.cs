@@ -1,11 +1,11 @@
-﻿using Aliyun.MNS.Model.Internal.MarshallTransformations;
-using Aliyun.MNS.Runtime;
+﻿using AliyunMnsSdk.Model.Internal.MarshallTransformations;
+using AliyunMnsSdk.Runtime;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     public partial class BatchReceiveMessageResponse : WebServiceResponse
     {

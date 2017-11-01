@@ -1,4 +1,4 @@
-﻿namespace Aliyun.MNS.Runtime
+﻿namespace AliyunMnsSdk.Runtime
 {
     /// <summary>
     /// The valid hashing algorithm supported by MNS for request signing.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Aliyun.MNS.Util
+namespace AliyunMnsSdk.Util
 {
     internal interface ITypeInfo
     {

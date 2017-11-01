@@ -3,9 +3,9 @@ using System.Globalization;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
-using Aliyun.MNS.Runtime;
+using AliyunMnsSdk.Runtime;
 
-namespace Aliyun.MNS.Util
+namespace AliyunMnsSdk.Util
 {
     public interface ICryptoUtil
     {
@@ -41,7 +41,15 @@ namespace Aliyun.MNS.Util
                 if (data == null || data.Length == 0)
                     throw new ArgumentNullException("data", "Please specify data to sign.");
 
-                KeyedHashAlgorithm algorithm = KeyedHashAlgorithm.Create(algorithmName.ToString().ToUpper(CultureInfo.InvariantCulture));
+                HMAC algorithm;
+                if (algorithmName == SigningAlgorithm.HmacSHA1)
+                {
+                    algorithm = new HMACSHA1();
+                }
+                else
+                {
+                    algorithm = new HMACSHA256();
+                }
                 if (null == algorithm)
                     throw new InvalidOperationException("Please specify a KeyedHashAlgorithm to use.");
 

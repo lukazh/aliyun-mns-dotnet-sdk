@@ -1,6 +1,6 @@
-﻿using Aliyun.MNS.Runtime.Internal.Util;
+﻿using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Internal.Auth
+namespace AliyunMnsSdk.Runtime.Internal.Auth
 {
     /// <summary>
     /// Interface for signing MNS request.

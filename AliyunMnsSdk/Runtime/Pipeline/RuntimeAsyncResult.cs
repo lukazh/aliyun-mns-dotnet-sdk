@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Aliyun.MNS.Runtime.Pipeline
+namespace AliyunMnsSdk.Runtime.Pipeline
 {
     public class RuntimeAsyncResult : IAsyncResult, IDisposable
     {

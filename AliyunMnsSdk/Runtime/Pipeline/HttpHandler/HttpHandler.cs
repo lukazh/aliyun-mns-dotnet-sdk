@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Globalization;
 using System.Text;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.HttpHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.HttpHandler
 {
     /// <summary>
     /// The HTTP handler contains common logic for issuing an HTTP request that is 

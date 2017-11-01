@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// Base class for the UnmarshallerContext objects that are used

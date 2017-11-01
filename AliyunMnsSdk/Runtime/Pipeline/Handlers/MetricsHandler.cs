@@ -1,8 +1,8 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.Handlers
+namespace AliyunMnsSdk.Runtime.Pipeline.Handlers
 {
     /// <summary>
     /// This handler manages the metrics used to time the complete call and

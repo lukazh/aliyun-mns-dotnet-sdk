@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
-using Aliyun.MNS.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
+using AliyunMnsSdk.Runtime.Internal;
 
-namespace Aliyun.MNS.Runtime.Pipeline.ErrorHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.ErrorHandler
 {
     /// <summary>
     /// This handler processes exceptions thrown from the HTTP handler and

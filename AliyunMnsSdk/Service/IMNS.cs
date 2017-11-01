@@ -4,9 +4,9 @@
  */
 
 using System;
-using Aliyun.MNS.Model;
+using AliyunMnsSdk.Model;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk.Service
 {
     /// <summary>
     /// Interface for accessing MNS.

@@ -6,9 +6,9 @@
  */
 
 using System;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.ErrorHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.ErrorHandler
 {
     /// <summary>
     /// The abstract base class for exception handlers.

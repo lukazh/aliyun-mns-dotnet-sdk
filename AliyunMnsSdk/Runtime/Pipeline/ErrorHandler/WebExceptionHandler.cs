@@ -1,8 +1,8 @@
 ﻿using System.Globalization;
 using System.Net;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.ErrorHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.ErrorHandler
 {
     /// <summary>
     /// The exception handler for HttpErrorResponseException exception.

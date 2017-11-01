@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net;
-using Aliyun.MNS.Runtime;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     /// <summary>
     /// Response Unmarshaller for SetQueueAttributes operation

@@ -2,7 +2,7 @@
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     [JsonObject]
     public class BatchSmsAttributes

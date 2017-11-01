@@ -1,11 +1,11 @@
-﻿using Aliyun.MNS.Runtime;
+﻿using AliyunMnsSdk.Runtime;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     public class BatchDeleteFailException : AliyunServiceException
     {

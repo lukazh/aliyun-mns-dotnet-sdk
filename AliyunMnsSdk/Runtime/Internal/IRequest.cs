@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Aliyun.MNS.Runtime.Internal
+namespace AliyunMnsSdk.Runtime.Internal
 {
     /// <summary>
     /// Represents a request being sent to an Aliyun Web Service, including the

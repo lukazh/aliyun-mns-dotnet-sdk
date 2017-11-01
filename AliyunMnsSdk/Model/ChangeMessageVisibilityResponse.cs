@@ -4,9 +4,9 @@
  */
 
 using System;
-using Aliyun.MNS.Runtime;
+using AliyunMnsSdk.Runtime;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// Response for MNS ChangeMessageVisibility service

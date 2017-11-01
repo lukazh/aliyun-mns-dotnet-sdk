@@ -1,10 +1,10 @@
-﻿using Aliyun.MNS.Model;
+﻿using AliyunMnsSdk.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk.Service
 {
     /// <summary>
     /// Interface for accessing MNS topic

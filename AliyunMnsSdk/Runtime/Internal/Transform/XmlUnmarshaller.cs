@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// Deserializes specified object from XML stream.

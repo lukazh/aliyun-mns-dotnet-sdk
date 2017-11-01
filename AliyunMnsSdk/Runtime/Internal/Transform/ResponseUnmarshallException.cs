@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// Exception thrown during deserializing response.

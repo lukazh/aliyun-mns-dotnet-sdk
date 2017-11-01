@@ -3,9 +3,9 @@
  * All rights reserved.
  */
 
-using Aliyun.MNS.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// Base class for MNS operation requests.

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net;
 
-namespace Aliyun.MNS.Runtime
+namespace AliyunMnsSdk.Runtime
 {
     /// <summary>
     /// Abstract class for Response objects, contains response headers, 

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Internal.Auth
+namespace AliyunMnsSdk.Runtime.Internal.Auth
 {
     /// <summary>
     /// A signer for generating MNS request header named 'Authorization'.

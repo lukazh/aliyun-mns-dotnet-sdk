@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using Microsoft.Win32;
 
-namespace Aliyun.MNS.Util
+namespace AliyunMnsSdk.Util
 {
     /// <summary>
     /// This class defines utilities and constants that can be used by MNS clients.

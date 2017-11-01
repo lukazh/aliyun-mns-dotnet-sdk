@@ -1,4 +1,4 @@
-namespace Aliyun.MNS.Util
+namespace AliyunMnsSdk.Util
 {
     internal static class MNSConstants
     {

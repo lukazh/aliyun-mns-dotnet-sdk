@@ -5,9 +5,9 @@
 
 using System;
 using System.Net;
-using Aliyun.MNS.Runtime;
+using AliyunMnsSdk.Runtime;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk
 {
     /// <summary>
     /// Base class for all MNS exception classes. 

@@ -1,20 +1,20 @@
-﻿using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Auth;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Runtime.Pipeline;
-using Aliyun.MNS.Runtime.Pipeline.ErrorHandler;
-using Aliyun.MNS.Runtime.Pipeline.Handlers;
-using Aliyun.MNS.Runtime.Pipeline.HttpHandler;
-using Aliyun.MNS.Runtime.Pipeline.RetryHandler;
-using Aliyun.MNS.Util;
+﻿using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Auth;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Pipeline;
+using AliyunMnsSdk.Runtime.Pipeline.ErrorHandler;
+using AliyunMnsSdk.Runtime.Pipeline.Handlers;
+using AliyunMnsSdk.Runtime.Pipeline.HttpHandler;
+using AliyunMnsSdk.Runtime.Pipeline.RetryHandler;
+using AliyunMnsSdk.Util;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
 
-namespace Aliyun.MNS.Runtime
+namespace AliyunMnsSdk.Runtime
 {
     public abstract class AliyunServiceClient : IDisposable
     {

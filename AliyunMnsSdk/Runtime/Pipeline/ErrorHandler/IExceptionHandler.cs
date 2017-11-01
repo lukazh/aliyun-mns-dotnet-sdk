@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aliyun.MNS.Runtime.Pipeline.ErrorHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.ErrorHandler
 {
     /// <summary>
     /// The interface for an exception handler.

@@ -1,8 +1,8 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline
+namespace AliyunMnsSdk.Runtime.Pipeline
 {
     /// <summary>
     /// An abstract pipeline handler that has implements IPipelineHandler,

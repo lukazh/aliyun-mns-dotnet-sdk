@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Aliyun.MNS.Runtime
+namespace AliyunMnsSdk.Runtime
 {
     public class AliyunServiceException : Exception
     {

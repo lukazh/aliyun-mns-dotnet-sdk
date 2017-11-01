@@ -5,9 +5,9 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Internal.Util
+namespace AliyunMnsSdk.Runtime.Internal.Util
 {
     public class RequestMetrics
     {

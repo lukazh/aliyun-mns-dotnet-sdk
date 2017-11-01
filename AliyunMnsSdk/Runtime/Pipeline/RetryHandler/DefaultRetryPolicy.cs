@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Threading;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.RetryHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.RetryHandler
 {
     /// <summary>
     /// The default implementation of the retry policy.

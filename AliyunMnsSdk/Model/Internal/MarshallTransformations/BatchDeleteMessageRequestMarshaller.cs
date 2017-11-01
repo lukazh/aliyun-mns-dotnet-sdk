@@ -1,7 +1,7 @@
-﻿using Aliyun.MNS.Runtime;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Util;
+﻿using AliyunMnsSdk.Runtime;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Util;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     public partial class BatchDeleteMessageRequestMarshaller : IMarshaller<IRequest, BatchDeleteMessageRequest>, IMarshaller<IRequest, WebServiceRequest>
     {

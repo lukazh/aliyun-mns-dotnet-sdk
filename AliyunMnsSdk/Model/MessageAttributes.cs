@@ -4,9 +4,9 @@
  */
 
 using System;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// Container for a set of queue attributes.

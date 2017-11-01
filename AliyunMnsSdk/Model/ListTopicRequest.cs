@@ -3,9 +3,9 @@
  * All rights reserved.
  */
 
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// Container for request parameters that needed by MNS ListTopic service.

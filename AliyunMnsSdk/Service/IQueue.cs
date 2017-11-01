@@ -4,10 +4,10 @@
  */
 
 using System;
-using Aliyun.MNS.Model;
+using AliyunMnsSdk.Model;
 using System.Collections.Generic;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk.Service
 {
     /// <summary>
     /// Interface for accessing MNS queue

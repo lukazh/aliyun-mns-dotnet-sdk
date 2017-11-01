@@ -1,10 +1,10 @@
 ﻿using System.Xml.Serialization;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Util;
 using System.Xml;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     /// <summary>
     ///    Response Unmarshaller for all Errors

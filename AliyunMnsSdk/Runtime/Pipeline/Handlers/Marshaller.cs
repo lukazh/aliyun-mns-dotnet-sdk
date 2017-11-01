@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Util;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.Handlers
+namespace AliyunMnsSdk.Runtime.Pipeline.Handlers
 {
     /// <summary>
     /// This handler marshalls the request before calling invoking the next handler.

@@ -1,7 +1,7 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Transform;
 
-namespace Aliyun.MNS.Runtime.Pipeline
+namespace AliyunMnsSdk.Runtime.Pipeline
 {
     /// <summary>
     /// HttpErrorResponseException

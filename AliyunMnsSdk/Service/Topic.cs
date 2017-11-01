@@ -4,13 +4,13 @@
  */
 
 using System;
-using Aliyun.MNS.Model;
-using Aliyun.MNS.Model.Internal.MarshallTransformations;
-using Aliyun.MNS.Runtime;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Model;
+using AliyunMnsSdk.Model.Internal.MarshallTransformations;
+using AliyunMnsSdk.Runtime;
+using AliyunMnsSdk.Util;
 using System.Collections.Generic;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk.Service
 {
     /// <summary>
     /// Implementation for accessing MNS topic

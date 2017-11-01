@@ -6,7 +6,7 @@
 using System;
 using System.Net;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     ///<summary>
     /// SubscriptionNameLengthErrorException

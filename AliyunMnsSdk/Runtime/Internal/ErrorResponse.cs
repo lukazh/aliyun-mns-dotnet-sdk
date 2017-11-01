@@ -1,4 +1,4 @@
-﻿namespace Aliyun.MNS.Runtime.Internal
+﻿namespace AliyunMnsSdk.Runtime.Internal
 {
     /// <summary>
     /// Error information returned by MNS.

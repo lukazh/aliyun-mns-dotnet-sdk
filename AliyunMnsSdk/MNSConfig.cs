@@ -3,9 +3,9 @@
  * All rights reserved.
  */
 
-using Aliyun.MNS.Runtime;
+using AliyunMnsSdk.Runtime;
 
-namespace Aliyun.MNS
+namespace AliyunMnsSdk
 {
     /// <summary>
     /// Configuration for accessing Aliyun MNS Service

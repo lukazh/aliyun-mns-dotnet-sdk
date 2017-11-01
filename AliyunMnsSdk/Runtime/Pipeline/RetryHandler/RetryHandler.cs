@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.RetryHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.RetryHandler
 {
     /// <summary>
     /// The retry handler has the generic logic for retrying requests.

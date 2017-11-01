@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// A simple wrapper of MNSRequest to message releated requests.

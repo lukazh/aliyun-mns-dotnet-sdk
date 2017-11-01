@@ -1,7 +1,7 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline
+namespace AliyunMnsSdk.Runtime.Pipeline
 {
     /// <summary>
     /// Interface for a pipeline handler in a pipeline.

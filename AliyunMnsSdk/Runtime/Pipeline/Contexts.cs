@@ -1,11 +1,11 @@
-﻿using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Auth;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Runtime.Internal.Util;
+﻿using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Auth;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Util;
 using System;
-using Aliyun.MNS.Runtime.Pipeline;
+using AliyunMnsSdk.Runtime.Pipeline;
 
-namespace Aliyun.MNS.Runtime.Pipeline
+namespace AliyunMnsSdk.Runtime.Pipeline
 {
     public interface IRequestContext
     {
@@ -56,7 +56,7 @@ namespace Aliyun.MNS.Runtime.Pipeline
     }
 }
 
-namespace Aliyun.MNS.Runtime.Internal
+namespace AliyunMnsSdk.Runtime.Internal
 {
     public class RequestContext : IRequestContext
     {

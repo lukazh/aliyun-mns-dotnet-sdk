@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// Container for request parameters that needed by MNS ReceiveMessage service.

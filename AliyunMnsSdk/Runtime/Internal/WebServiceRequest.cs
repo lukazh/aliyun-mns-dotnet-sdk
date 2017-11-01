@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Aliyun.MNS.Runtime.Internal
+namespace AliyunMnsSdk.Runtime.Internal
 {
     public abstract partial class WebServiceRequest
     {

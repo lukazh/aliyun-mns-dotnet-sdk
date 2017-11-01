@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Aliyun.MNS.Runtime.Internal.Util
+namespace AliyunMnsSdk.Runtime.Internal.Util
 {
     internal static partial class Extensions
     {

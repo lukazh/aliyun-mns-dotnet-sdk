@@ -1,4 +1,4 @@
-﻿namespace Aliyun.MNS.Runtime.Internal.Transform
+﻿namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// Interface for unmarshallers which unmarshall objects from response data.

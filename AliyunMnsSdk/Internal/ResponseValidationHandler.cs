@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Globalization;
 using System.Text;
-using Aliyun.MNS.Model;
-using Aliyun.MNS.Runtime.Pipeline;
-using Aliyun.MNS.Runtime.Pipeline.Handlers;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Model;
+using AliyunMnsSdk.Runtime.Pipeline;
+using AliyunMnsSdk.Runtime.Pipeline.Handlers;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Internal
+namespace AliyunMnsSdk.Internal
 {
     /// <summary>
     /// This handler validates response returned by MNS.

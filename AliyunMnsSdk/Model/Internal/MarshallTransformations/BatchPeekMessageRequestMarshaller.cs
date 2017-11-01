@@ -1,13 +1,13 @@
-﻿using Aliyun.MNS.Runtime;
-using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Util;
+﻿using AliyunMnsSdk.Runtime;
+using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Util;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Aliyun.MNS.Model.Internal.MarshallTransformations
+namespace AliyunMnsSdk.Model.Internal.MarshallTransformations
 {
     class BatchPeekMessageRequestMarshaller : IMarshaller<IRequest, BatchPeekMessageRequest>, IMarshaller<IRequest, WebServiceRequest>
     {

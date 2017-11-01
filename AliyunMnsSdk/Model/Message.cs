@@ -3,11 +3,11 @@
  * All rights reserved.
  */
 
-using Aliyun.MNS.Model.Internal.MarshallTransformations;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Model.Internal.MarshallTransformations;
+using AliyunMnsSdk.Util;
 using System;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     /// <summary>
     /// An Aliyun MNS message.

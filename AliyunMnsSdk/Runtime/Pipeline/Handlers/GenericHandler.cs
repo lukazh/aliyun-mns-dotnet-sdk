@@ -1,7 +1,7 @@
 ﻿using System;
-using Aliyun.MNS.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal;
 
-namespace Aliyun.MNS.Runtime.Pipeline.Handlers
+namespace AliyunMnsSdk.Runtime.Pipeline.Handlers
 {    
     /// <summary>
     /// A generic handler that provides overridable PreInvoke and PostInvoke methods. 

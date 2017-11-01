@@ -1,4 +1,4 @@
-﻿namespace Aliyun.MNS.Runtime.Internal.Transform
+﻿namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     public interface IMarshaller<T, R>
     {

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Net;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
 using System.IO;
 using System.Text;
 
-namespace Aliyun.MNS.Runtime.Pipeline.ErrorHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.ErrorHandler
 {
     /// <summary>
     /// The exception handler for HttpErrorResponseException exception.

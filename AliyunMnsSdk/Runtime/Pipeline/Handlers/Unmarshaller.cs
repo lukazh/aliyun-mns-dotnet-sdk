@@ -1,8 +1,8 @@
-﻿using Aliyun.MNS.Runtime.Internal;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Runtime.Internal.Util;
+﻿using AliyunMnsSdk.Runtime.Internal;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.Handlers
+namespace AliyunMnsSdk.Runtime.Pipeline.Handlers
 {
     /// <summary>
     /// This handler unmarshalls the HTTP response.

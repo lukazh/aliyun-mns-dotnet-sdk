@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     public class HttpWebRequestResponseData : IWebResponseData
     {

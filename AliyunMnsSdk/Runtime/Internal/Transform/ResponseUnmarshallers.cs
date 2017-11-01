@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net;
 using System.IO;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Internal.Transform
+namespace AliyunMnsSdk.Runtime.Internal.Transform
 {
     /// <summary>
     /// Abstract class for unmarshalling service responses.

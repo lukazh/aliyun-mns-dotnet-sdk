@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Net;
-using Aliyun.MNS.Runtime.Internal.Transform;
-using Aliyun.MNS.Runtime.Internal.Util;
-using Aliyun.MNS.Util;
+using AliyunMnsSdk.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Util;
+using AliyunMnsSdk.Util;
 
-namespace Aliyun.MNS.Runtime.Pipeline.HttpHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.HttpHandler
 {
     /// <summary>
     /// The request factory for System.Net.HttpWebRequest.

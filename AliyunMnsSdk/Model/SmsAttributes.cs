@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Json;
 using System.IO;
 using Newtonsoft.Json;
 
-namespace Aliyun.MNS.Model
+namespace AliyunMnsSdk.Model
 {
     [JsonObject]
     public class SmsAttributes

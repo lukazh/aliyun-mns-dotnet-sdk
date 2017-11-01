@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Aliyun.MNS.Runtime.Internal
+namespace AliyunMnsSdk.Runtime.Internal
 {
     /// <summary>
     /// Default implementation of the IRequest interface.

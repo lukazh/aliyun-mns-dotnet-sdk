@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using Aliyun.MNS.Runtime.Internal.Transform;
+using AliyunMnsSdk.Runtime.Internal.Transform;
 
-namespace Aliyun.MNS.Runtime.Pipeline.HttpHandler
+namespace AliyunMnsSdk.Runtime.Pipeline.HttpHandler
 {
     /// <summary>
     /// The interface for a HTTP request factory.
